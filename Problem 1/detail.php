@@ -39,6 +39,7 @@ include('config.php');
                     <td><?php echo $data['contact']; ?></td>
                     <td><?php echo $data['email']; ?></td>
                     <td><a href="edit.php?id=<?php $data['id'];?>">Edit</a></td>
+                    <td><a href="delete.php?id=<?php $data['id'];?>">Delete</a></td>
                     
                  </tr>
                 <?php } ?>
